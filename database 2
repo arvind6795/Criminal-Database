@@ -1,1 +1,11 @@
-harsh
+#background right side image
+img_crime=Image.open(' # image address')
+img_crime=img_crime.resize((470,245),Image.ANTIALIAS)
+self.photocrime=ImageTk.PhotoImage(img_crime)
+
+self.img_crime=Label(upper_frame,image=self.photocrime)
+self.img_crime.place(x=1000,y=0,width=470,height=245)
+
+
+#Down Frame
+down_frame=LabelFrame(Main_frame,bd=2,relief=RIDGE,text='Search Criminal Record',font=(
