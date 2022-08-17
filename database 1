@@ -1,0 +1,19 @@
+from tkinter import*
+from tkinter import ttk
+from PIL import Image,ImageTk
+
+
+class Criminal:
+    def __init__(self,root):
+        self.root=root
+        self.root.geometry('1530*790+0+0')
+        self.root.title('CRIMINAL MANAGEMENT SYSTEM')
+
+
+
+
+
+if __name__=="__main__":
+    root=Tk()
+    obj=Criminal(root)
+    root.mainloop()
